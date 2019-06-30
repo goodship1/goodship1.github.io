@@ -32,6 +32,6 @@ pyqrcode. Here is a little code snippit showing how to generate qrcodes in the t
 		else:
 			wallet=pyqrcode.create(verge_address)
 			wallet_To_terminal = wallet.terminal()
-print(wallet_To_terminal)#Prints qrcode to terminal
+      print(wallet_To_terminal)#Prints qrcode to terminal
   
 {% endhighlight %}
