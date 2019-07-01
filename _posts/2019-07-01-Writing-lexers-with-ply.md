@@ -4,6 +4,7 @@ layout: post
 While learning about Compilers and Interperters i decided to try and write a Tiny programming language called Tiny Language which is implemented with python-ply which is a Python implementation of Lex-Yacc. Here is a simple lexer written with Ply.
 
 {%highlight python}
+
 import ply.lex as lex
 import re
 
