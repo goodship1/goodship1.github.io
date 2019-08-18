@@ -1,4 +1,3 @@
-
 ---
 layout: post
 ---
@@ -84,8 +83,6 @@ def If_Else_statement(p):
 	
 def p_error(p):
 	print "parser error"
-
-
 
 
 {% end highlight %}
