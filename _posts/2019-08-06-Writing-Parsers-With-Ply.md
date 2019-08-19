@@ -4,7 +4,7 @@ layout: post
 
 A follow up on writing lexers with ply i thought i would countinue on how to write parsers with ply.
 
-{%highlightpython%}
+{%highlight python%}
 
 from lexer import tokens
 from ply.yacc import yacc
