@@ -3,13 +3,5 @@ layout: page
 title: About
 permalink: /about/
 ---
-Software Engineering Student whom has an interest in Compilers , Block-Chain and machine learning
-
-Technical Competencies
-
-Programming languages: Python Ocaml  X86
-
-Database: MYSQL , postgres
-
-
-Fundamentals: Data-structures and Algorithms  , Design Patterns , OOP
+A passionate  Software Engineer whom has interest in all things Decentralized.
+Current interests include Blockchain techologies including Etheruem Hyper-ledger , smart contract developement and DOA's
