@@ -2,8 +2,12 @@
 layout: post
 ---
 
-An collection of PyGithub examples on how to use the use the api
+An collection of PyGithub examples.
 
 
-{% highlight python }
+{% highlight python % }
 import pygithub
+github =  Pygithub("your access token")
+
+#get your repos using pygithub
+
