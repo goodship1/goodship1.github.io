@@ -9,5 +9,9 @@ An collection of PyGithub examples.
 import pygithub
 github =  Pygithub("your access token")
 
-#get your repos using pygithub
+#Get user inforamtion 
+user_info = github.get_user()
+#get repos of the users
+user_info.get_repos()
+{% highlight python %}
 
