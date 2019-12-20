@@ -5,7 +5,8 @@ layout: post
 An collection of PyGithub examples.
 
 
-{% highlight python % }
+{%highlight python %}
+
 import pygithub
 github =  Pygithub("your access token")
 
@@ -14,5 +15,5 @@ user_info = github.get_user()
 #get repos of the users
 user_info.get_repos()
 
-{% endhighlight %}
+{% end highlight %}
 
