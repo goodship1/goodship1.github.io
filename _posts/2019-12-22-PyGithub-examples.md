@@ -11,6 +11,8 @@ Pygithub examples while developing an issue tracker using pygithub ive seen alot
 
 
 {% highlight python %}
+
+
 import pygithub
 my_github = pygithub("your token")
 
