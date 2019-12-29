@@ -11,7 +11,17 @@ Pygithub examples while developing an issue tracker using pygithub ive seen alot
 
 
 {% highlight python %}
+import pygithub
+my_github = pygithub("your token")
 
+
+#get user information from github api
+
+my_github.get_user() #get user information
+print(my_github.name)#prints the name of the github account 
+print(my_github.email)#prints the users email address
+
+#getting repo information
  
   
 {% endhighlight %}
