@@ -19,11 +19,13 @@ my_github = pygithub("your token")
 
 #get user information from github api
 
-my_github.get_user() #get user information
-print(my_github.name)#prints the name of the github account 
-print(my_github.email)#prints the users email address
+users = my_github.get_user() #get user information
+print(user.name)#prints the name of the github account 
+print(user.email)#prints the users email address
 
-#getting repo information
+#getting repo and commit  information
+ repo = user.get_repos()
+ commits = repo.get_commits()
  
   
 {% endhighlight %}
